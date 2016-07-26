@@ -17,5 +17,6 @@ Vagrant.configure("2") do |config|
 	apt-get upgrade -y
 	apt-get install -y mingw32 pkg-config bison flex nasm
 	apt-get install -y vim mc screen
+	ln -sf /vagrant /home/vagrant/host
   SHELL
 end
